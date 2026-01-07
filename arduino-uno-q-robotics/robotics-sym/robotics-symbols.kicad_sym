@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robotics-footprints:CON_5019512230"
+		(property "Footprint" "robotics-footprints:CON_5051102291_MOL"
 			(at 0 0 0)
 			(effects
 				(font

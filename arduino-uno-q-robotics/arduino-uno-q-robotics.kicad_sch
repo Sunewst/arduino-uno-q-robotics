@@ -2805,7 +2805,7 @@
 					)
 				)
 			)
-			(property "Footprint" "robotics-footprints:CON_5019512230"
+			(property "Footprint" "robotics-footprints:CON_5051102291_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11232,7 +11232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "robotics-footprints:LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
 			(at 56.642 268.224 0)
 			(effects
 				(font
@@ -11560,7 +11560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robotics-footprints:CON_5019512230"
+		(property "Footprint" "robotics-footprints:CON_5051102291_MOL"
 			(at 381 20.32 0)
 			(effects
 				(font
@@ -11775,7 +11775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBAT\""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 106.68 30.48 0)
 			(effects
 				(font
@@ -11824,7 +11824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "robotics-footprints:CON_5019512230"
+		(property "Footprint" "robotics-footprints:CON_5051102291_MOL"
 			(at 381 88.9 0)
 			(effects
 				(font
