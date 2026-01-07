@@ -1953,6 +1953,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface:TCA9803"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCA9803"
+				(at 5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+				(at 22.86 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9803.pdf"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Level-Translating I2C Bus Buffer/Repeater 3.3mA Current Source, VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C buffer repeater"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCA9803_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCA9803_1_1"
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCLA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDAA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SCLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SDAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -5762,6 +5990,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 132.08) (xy 381 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ca8cba-95fd-4389-9b88-ed00ae32a6b9")
+	)
+	(wire
+		(pts
 			(xy 165.1 85.09) (xy 198.12 85.09)
 		)
 		(stroke
@@ -5912,6 +6150,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 72.39) (xy 292.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f615df1-4eec-46f6-8f59-ab8592af8381")
+	)
+	(wire
+		(pts
 			(xy 78.74 31.75) (xy 72.39 31.75)
 		)
 		(stroke
@@ -5939,6 +6187,16 @@
 			(type default)
 		)
 		(uuid "2c53f4f7-9a42-415b-86a3-f5a87277c944")
+	)
+	(wire
+		(pts
+			(xy 274.32 87.63) (xy 274.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df65731-d9c7-48a2-9098-3189b8d5bc15")
 	)
 	(wire
 		(pts
@@ -6059,6 +6317,16 @@
 			(type default)
 		)
 		(uuid "45aebb85-18ca-4092-ac0d-9d072b523790")
+	)
+	(wire
+		(pts
+			(xy 276.86 55.88) (xy 276.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474e0375-c092-4cea-850f-22c4586e414f")
 	)
 	(wire
 		(pts
@@ -6272,6 +6540,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 68.58) (xy 381 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d7f3c0-5439-41b4-81f5-591701421588")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 152.4 39.37)
 		)
 		(stroke
@@ -6479,6 +6757,16 @@
 			(type default)
 		)
 		(uuid "8794443b-16c0-4fd2-b421-a8ecacbcfc6e")
+	)
+	(wire
+		(pts
+			(xy 271.78 50.8) (xy 271.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882ee474-8f28-4060-9b93-e70260d3e220")
 	)
 	(wire
 		(pts
@@ -6842,6 +7130,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 74.93) (xy 292.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4617720-56b1-4ab1-8058-bce10ca7bb16")
+	)
+	(wire
+		(pts
 			(xy 146.05 34.29) (xy 152.4 34.29)
 		)
 		(stroke
@@ -7192,6 +7490,26 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 129.54) (xy 381 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb4532a-15b5-426f-9383-86c74d85eb7b")
+	)
+	(wire
+		(pts
+			(xy 375.92 71.12) (xy 381 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df818a23-3ca8-4e6b-801b-d93019be446c")
+	)
+	(wire
+		(pts
 			(xy 198.12 31.75) (xy 198.12 39.37)
 		)
 		(stroke
@@ -7229,6 +7547,16 @@
 			(type default)
 		)
 		(uuid "e63d7117-1218-4813-aab8-c20bec8f804a")
+	)
+	(wire
+		(pts
+			(xy 256.54 72.39) (xy 264.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e698f004-e8ac-4cbd-ad67-9cd6fa5fd648")
 	)
 	(wire
 		(pts
@@ -7302,6 +7630,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 74.93) (xy 264.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdceae2a-e58b-4833-8937-859145741525")
+	)
+	(wire
+		(pts
 			(xy 45.72 100.33) (xy 59.69 100.33)
 		)
 		(stroke
@@ -7319,6 +7657,26 @@
 			(justify right bottom)
 		)
 		(uuid "01c2541b-4407-4d01-b2a0-edda428e0e1e")
+	)
+	(label "SDA_3.3V"
+		(at 375.92 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "021df295-e565-422f-90b8-3216ada16e87")
+	)
+	(label "CCI_I2C_SCL0"
+		(at 256.54 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06584840-9edc-43ab-a822-cd76748c36d8")
 	)
 	(label "MCU_PSSI_D6"
 		(at 53.34 46.99 180)
@@ -7500,6 +7858,26 @@
 		)
 		(uuid "3b3bb87f-9e72-48c2-a279-67ebfa013324")
 	)
+	(label "SCL_3.3V"
+		(at 375.92 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bcef5e7-d07a-4dd8-ac16-c27f9bc6dc3e")
+	)
+	(label "SDA_3.3V"
+		(at 375.92 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4326b1a9-02a5-4c1c-8582-792d56c43377")
+	)
 	(label "MCU_SDMMC1_CMD"
 		(at 78.74 31.75 0)
 		(effects
@@ -7679,6 +8057,16 @@
 			(justify left bottom)
 		)
 		(uuid "70deab0f-8456-448c-bc76-1fd837af135b")
+	)
+	(label "SDA_3.3V"
+		(at 292.1 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71088cea-0b95-4d90-83fb-d17fbea14b54")
 	)
 	(label "CSI0_C2_LN3_M"
 		(at 146.05 87.63 180)
@@ -7929,6 +8317,16 @@
 			(justify right bottom)
 		)
 		(uuid "ad408c42-c039-4b6e-8c9b-65463969ea2f")
+	)
+	(label "CCI_I2C_SDA0"
+		(at 256.54 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "add7a087-8e89-4d26-884f-ad888274b7ad")
 	)
 	(label "MCU_PSSI_PDCK"
 		(at 53.34 52.07 180)
@@ -8199,6 +8597,26 @@
 			(justify left bottom)
 		)
 		(uuid "f65a6c1c-f812-4f98-9135-b7c63794a401")
+	)
+	(label "SCL_3.3V"
+		(at 292.1 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8302d91-b4b7-4f1d-84b0-bfb2d5e3520c")
+	)
+	(label "SCL_3.3V"
+		(at 375.92 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f85ff742-4419-4e2d-89b6-c01920cdf969")
 	)
 	(label "CSI1_NC_CLK_P"
 		(at 171.45 80.01 0)
@@ -8603,6 +9021,72 @@
 			(project ""
 				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 276.86 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "252af207-784e-4d0e-8327-9771f7abec6e")
+		(property "Reference" "#PWR018"
+			(at 276.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 276.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 276.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62470bc7-63cb-4b0b-9faa-0dd7c95e9c56")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9385,6 +9869,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 274.32 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c214a69a-3bb0-4a63-bede-2173fd5a6890")
+		(property "Reference" "#PWR016"
+			(at 274.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cce0be67-82a8-4f0b-a55d-dc0037b75330")
+		)
+		(instances
+			(project ""
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x30_Odd_Even")
 		(at 157.48 67.31 0)
 		(unit 1)
@@ -9793,6 +10343,160 @@
 			(project ""
 				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface:TCA9803")
+		(at 274.32 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4422b0e-5715-4492-90c1-6c9bcd46dacc")
+		(property "Reference" "U2"
+			(at 276.4633 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA9803"
+			(at 276.4633 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 297.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9803.pdf"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Level-Translating I2C Bus Buffer/Repeater 3.3mA Current Source, VSSOP-8"
+			(at 274.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0addcbce-3764-4b68-99a2-38b4c8245fb8")
+		)
+		(pin "3"
+			(uuid "221c7e24-7f94-4314-b3e3-dddf6d0bf96e")
+		)
+		(pin "5"
+			(uuid "13408925-88c5-4fb0-a2da-36940f31bbd3")
+		)
+		(pin "2"
+			(uuid "54fa8e34-a1a3-4bef-8532-e45c94f7ac24")
+		)
+		(pin "1"
+			(uuid "da57af76-3c20-449a-80b6-bc1c63bcc649")
+		)
+		(pin "8"
+			(uuid "abbf4438-8a95-4266-8c89-58d91fccb8f2")
+		)
+		(pin "7"
+			(uuid "3368867d-7039-407b-a536-e119274a1dbd")
+		)
+		(pin "6"
+			(uuid "dc5e6b65-64aa-4bc3-897f-25f82eb4fefe")
+		)
+		(instances
+			(project ""
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 271.78 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc9a39b8-b15f-4a64-a026-14ab8b6077fa")
+		(property "Reference" "#PWR017"
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 271.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310eba7a-5e6e-4bac-a531-5d01a2a01611")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
