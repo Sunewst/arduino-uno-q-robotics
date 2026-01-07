@@ -7698,7 +7698,7 @@
 		)
 		(uuid "0dda7daf-7091-42c8-96dc-e8ebb0818a74")
 	)
-	(label "MIPI_DSI0_L2_M"
+	(label "MIPI_DSI0_L2_N"
 		(at 146.05 41.91 180)
 		(effects
 			(font
@@ -7788,7 +7788,7 @@
 		)
 		(uuid "239d5db9-a4f4-4774-b885-7f70613d9c43")
 	)
-	(label "CSI0_C1_LN2_P"
+	(label "CSI0_LN2_P"
 		(at 146.05 82.55 180)
 		(effects
 			(font
@@ -7808,7 +7808,7 @@
 		)
 		(uuid "27e2912f-8afb-43e0-be70-455eb69cd854")
 	)
-	(label "CSI0_B0_LN0_P"
+	(label "CSI0_LN0_P"
 		(at 146.05 59.69 180)
 		(effects
 			(font
@@ -7838,7 +7838,7 @@
 		)
 		(uuid "370d1662-82c9-4a18-83af-0e4d93510174")
 	)
-	(label "CSI0_A0_CLK_M"
+	(label "CSI0_CLK_N"
 		(at 146.05 72.39 180)
 		(effects
 			(font
@@ -7848,7 +7848,7 @@
 		)
 		(uuid "39eb7cf6-e4d6-4aff-b6da-067cefd2768d")
 	)
-	(label "MIPI_DSI0_CLK_M"
+	(label "MIPI_DSI0_CLK_N"
 		(at 146.05 34.29 180)
 		(effects
 			(font
@@ -7898,7 +7898,7 @@
 		)
 		(uuid "4576e695-6a1c-44a7-b36f-0a33d54fa7f5")
 	)
-	(label "CSI1_A0_CLK_M"
+	(label "CSI1_CLK_N"
 		(at 171.45 82.55 0)
 		(effects
 			(font
@@ -7928,7 +7928,7 @@
 		)
 		(uuid "550fe02d-ae00-4b4d-a396-da68f7c1929f")
 	)
-	(label "CSI1_B2_LN3_P"
+	(label "CSI1_LN3_P"
 		(at 171.45 64.77 0)
 		(effects
 			(font
@@ -7998,7 +7998,7 @@
 		)
 		(uuid "66bf5ae2-f178-4108-a57f-4c930f9cc13c")
 	)
-	(label "CSI1_B1_LN1_M"
+	(label "CSI1_LN1_N"
 		(at 171.45 90.17 0)
 		(effects
 			(font
@@ -8018,7 +8018,7 @@
 		)
 		(uuid "67ba7056-18ea-4d12-b0b4-12715fcfce6a")
 	)
-	(label "CSI0_B2_LN3_P"
+	(label "CSI0_LN3_P"
 		(at 146.05 90.17 180)
 		(effects
 			(font
@@ -8048,7 +8048,7 @@
 		)
 		(uuid "70dd91b3-cae9-4654-ac0d-1cb41507b47d")
 	)
-	(label "CSI1_A1_LN1_P"
+	(label "CSI1_LN1_P"
 		(at 171.45 87.63 0)
 		(effects
 			(font
@@ -8068,7 +8068,7 @@
 		)
 		(uuid "71088cea-0b95-4d90-83fb-d17fbea14b54")
 	)
-	(label "CSI0_C2_LN3_M"
+	(label "CSI0_LN3_N"
 		(at 146.05 87.63 180)
 		(effects
 			(font
@@ -8088,7 +8088,7 @@
 		)
 		(uuid "7851a6ed-d31a-442c-921f-52fed386f22b")
 	)
-	(label "CSI0_B1_LN1_M"
+	(label "CSI0_LN1_N"
 		(at 146.05 64.77 180)
 		(effects
 			(font
@@ -8128,7 +8128,7 @@
 		)
 		(uuid "81140e93-340b-446c-8e63-6c5d31325a64")
 	)
-	(label "CSI0_A2_LN2_M"
+	(label "CSI0_LN2_N"
 		(at 146.05 80.01 180)
 		(effects
 			(font
@@ -8178,7 +8178,7 @@
 		)
 		(uuid "894e9605-b69e-4949-9f2f-3a56fa2595ab")
 	)
-	(label "CSI1_A2_LN2_M"
+	(label "CSI1_LN2_N"
 		(at 171.45 74.93 0)
 		(effects
 			(font
@@ -8258,7 +8258,7 @@
 		)
 		(uuid "99a79645-3253-4267-8c01-1462e3ccead8")
 	)
-	(label "CSI1_B0_LN0_P"
+	(label "CSI1_LN0_P"
 		(at 171.45 95.25 0)
 		(effects
 			(font
@@ -8298,7 +8298,7 @@
 		)
 		(uuid "a753031e-9175-42a6-a9d2-aba2cb6bf141")
 	)
-	(label "CSI0_NC_CLK_P"
+	(label "CSI0_CLK_P"
 		(at 146.05 74.93 180)
 		(effects
 			(font
@@ -8358,7 +8358,7 @@
 		)
 		(uuid "b06a85fe-7a5e-4fd9-a51d-25e09956a5c1")
 	)
-	(label "CSI1_C1_LN2_P"
+	(label "CSI1_LN2_P"
 		(at 171.45 72.39 0)
 		(effects
 			(font
@@ -8378,7 +8378,7 @@
 		)
 		(uuid "b212722c-635b-4f23-ae7e-2118ce5d16ee")
 	)
-	(label "CSI1_C2_LN3_M"
+	(label "CSI1_LN3_N"
 		(at 171.45 67.31 0)
 		(effects
 			(font
@@ -8388,7 +8388,7 @@
 		)
 		(uuid "b5b3343c-b362-4c61-a3e7-9d915bdc2d2b")
 	)
-	(label "MIPI_DSI0_L0_M"
+	(label "MIPI_DSI0_L0_N"
 		(at 171.45 44.45 0)
 		(effects
 			(font
@@ -8428,7 +8428,7 @@
 		)
 		(uuid "ba77e3ad-951e-41e7-9218-024e7905b3db")
 	)
-	(label "MIPI_DSI0_L1_M"
+	(label "MIPI_DSI0_L1_N"
 		(at 171.45 36.83 0)
 		(effects
 			(font
@@ -8438,7 +8438,7 @@
 		)
 		(uuid "ba9768a9-0607-4781-99da-5312ecaf30c9")
 	)
-	(label "MIPI_DSI0_L3_M"
+	(label "MIPI_DSI0_L3_N"
 		(at 146.05 49.53 180)
 		(effects
 			(font
@@ -8528,7 +8528,7 @@
 		)
 		(uuid "e15159f7-5f1c-4cca-b038-99b6eb822d6c")
 	)
-	(label "CSI0_A1_LN1_P"
+	(label "CSI0_LN1_P"
 		(at 146.05 67.31 180)
 		(effects
 			(font
@@ -8568,7 +8568,7 @@
 		)
 		(uuid "ef32f092-98b2-4dd8-a7fb-5cf53eac3dd2")
 	)
-	(label "CSI0_C0_LN0_M"
+	(label "CSI0_LN0_N"
 		(at 146.05 57.15 180)
 		(effects
 			(font
@@ -8588,7 +8588,7 @@
 		)
 		(uuid "f5c683e3-4ae8-4dd3-aa25-7a9a8713aac5")
 	)
-	(label "CSI1_C0_LN0_M"
+	(label "CSI1_LN0_N"
 		(at 171.45 97.79 0)
 		(effects
 			(font
@@ -8618,7 +8618,7 @@
 		)
 		(uuid "f85ff742-4419-4e2d-89b6-c01920cdf969")
 	)
-	(label "CSI1_NC_CLK_P"
+	(label "CSI1_CLK_P"
 		(at 171.45 80.01 0)
 		(effects
 			(font
@@ -10202,7 +10202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "robotics-footprints:LGA-14L_2P5X3X0P83_STM"
 			(at 56.642 268.224 0)
 			(effects
 				(font
