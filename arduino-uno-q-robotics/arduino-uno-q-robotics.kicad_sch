@@ -8416,6 +8416,7 @@
 	)
 	(label "CSI0_LN0_P"
 		(at 146.05 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8423,6 +8424,17 @@
 			(justify right bottom)
 		)
 		(uuid "2ba076b2-f95c-44e0-a622-156283fa9997")
+		(property "CAM" "High-Speed"
+			(at 146.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(label "MCU_MCO"
 		(at 53.34 59.69 180)
@@ -9333,6 +9345,16 @@
 			(justify right bottom)
 		)
 		(uuid "f0914442-6783-4931-ba9b-2aa7f22f954e")
+		(property "CAM" "High-Speed"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(label "MCU_TRACE_D2"
 		(at 78.74 39.37 0)
