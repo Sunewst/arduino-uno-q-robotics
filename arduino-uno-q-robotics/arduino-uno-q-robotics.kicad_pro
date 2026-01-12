@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.2832
         }
       ],
       "drc_exclusions": [],
@@ -188,7 +193,7 @@
       ],
       "track_widths": [
         0.0,
-        0.209
+        0.2832
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -495,15 +500,15 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2832,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "High-Speed",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.209,
+        "track_width": 0.2832,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -525,6 +530,34 @@
       {
         "netclass": "Default",
         "pattern": "/CSI0_LN0_N"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_LN1_P"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_CLK_N"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_CLK_P"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_LN2_N"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_LN2_P"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_LN3_N"
+      },
+      {
+        "netclass": "High-Speed",
+        "pattern": "/CSI0_LN3_P"
       }
     ]
   },
