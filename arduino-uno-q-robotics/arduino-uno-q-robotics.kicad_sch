@@ -6152,6 +6152,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 116.84) (xy 313.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf8af6f-0ffd-4144-a444-6f20ea35c7ae")
+	)
+	(wire
+		(pts
 			(xy 165.1 105.41) (xy 203.2 105.41)
 		)
 		(stroke
@@ -6479,6 +6489,16 @@
 			(type default)
 		)
 		(uuid "21b01cd0-3af9-4c99-a105-331ad46a6749")
+	)
+	(wire
+		(pts
+			(xy 323.85 104.14) (xy 331.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2829bd79-ec16-4fb6-9701-4931080fda69")
 	)
 	(wire
 		(pts
@@ -7582,6 +7602,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 85.09) (xy 316.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6373b04-e7b2-47db-b375-b4034e0e859b")
+	)
+	(wire
+		(pts
 			(xy 125.73 69.85) (xy 125.73 77.47)
 		)
 		(stroke
@@ -7679,6 +7709,16 @@
 			(type default)
 		)
 		(uuid "ab5c0d50-1ffa-474a-be32-a66182d32717")
+	)
+	(wire
+		(pts
+			(xy 295.91 104.14) (xy 303.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9c54b3-cf5d-4ada-af32-d8d94ec56b85")
 	)
 	(wire
 		(pts
@@ -8182,6 +8222,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 80.01) (xy 311.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde5384d-c4f0-45db-ace0-c60149565e83")
+	)
+	(wire
+		(pts
 			(xy 375.92 71.12) (xy 381 71.12)
 		)
 		(stroke
@@ -8322,6 +8372,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 101.6) (xy 303.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44fcfae-cfd5-4616-b925-68d10d6e2e1c")
+	)
+	(wire
+		(pts
 			(xy 146.05 72.39) (xy 152.4 72.39)
 		)
 		(stroke
@@ -8382,6 +8442,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 101.6) (xy 331.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2eaaad-b3d0-4499-9193-14706aa2bb4c")
+	)
+	(wire
+		(pts
 			(xy 35.56 168.91) (xy 30.48 168.91)
 		)
 		(stroke
@@ -8429,16 +8499,6 @@
 			(justify right bottom)
 		)
 		(uuid "01c2541b-4407-4d01-b2a0-edda428e0e1e")
-	)
-	(label "SDA_3.3V"
-		(at 375.92 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "021df295-e565-422f-90b8-3216ada16e87")
 	)
 	(label "CCI_I2C_SCL0"
 		(at 295.91 44.45 180)
@@ -8610,6 +8670,16 @@
 		)
 		(uuid "27e2912f-8afb-43e0-be70-455eb69cd854")
 	)
+	(label "SCL1_3.3V"
+		(at 331.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b8f6156-24dd-46a8-81a2-a0cb15f44294")
+	)
 	(label "CSI0_LN0_P"
 		(at 146.05 59.69 180)
 		(fields_autoplaced yes)
@@ -8631,6 +8701,16 @@
 				(hide yes)
 			)
 		)
+	)
+	(label "SDA1_3.3V"
+		(at 375.92 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bed766b-2e6d-4547-ba7a-3b85c40abf28")
 	)
 	(label "MCU_MCO"
 		(at 53.34 59.69 180)
@@ -8692,16 +8772,6 @@
 		)
 		(uuid "3b3bb87f-9e72-48c2-a279-67ebfa013324")
 	)
-	(label "SCL_3.3V"
-		(at 375.92 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3bcef5e7-d07a-4dd8-ac16-c27f9bc6dc3e")
-	)
 	(label "CSI1_LN1_P"
 		(at 377.19 101.6 180)
 		(effects
@@ -8721,16 +8791,6 @@
 			(justify right bottom)
 		)
 		(uuid "4317221a-ebb4-40b7-80f2-f0f9179b7928")
-	)
-	(label "SDA_3.3V"
-		(at 375.92 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4326b1a9-02a5-4c1c-8582-792d56c43377")
 	)
 	(label "MCU_SDMMC1_CMD"
 		(at 78.74 31.75 0)
@@ -8832,6 +8892,16 @@
 		)
 		(uuid "619d8458-a659-4af2-874b-69e48d74ab3b")
 	)
+	(label "SDA0_3.3V"
+		(at 375.92 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61d4fbb7-9d8e-42a2-b3da-ac439e414bdd")
+	)
 	(label "HPH_R"
 		(at 78.74 77.47 0)
 		(effects
@@ -8922,7 +8992,7 @@
 		)
 		(uuid "70deab0f-8456-448c-bc76-1fd837af135b")
 	)
-	(label "SDA_3.3V"
+	(label "SDA0_3.3V"
 		(at 331.47 44.45 0)
 		(effects
 			(font
@@ -9222,6 +9292,16 @@
 		)
 		(uuid "a5bafb54-cdbb-45fc-8799-4e972551f675")
 	)
+	(label "SDA1_3.3V"
+		(at 331.47 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6afee26-fc8d-4f4f-b734-0f9b23c5d705")
+	)
 	(label "MCU_PSSI_D4"
 		(at 53.34 41.91 180)
 		(effects
@@ -9301,6 +9381,16 @@
 			(justify left bottom)
 		)
 		(uuid "b14637ec-fb03-42ff-8782-f3634015bbb6")
+	)
+	(label "CCI_I2C_SDA1"
+		(at 295.91 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1c47d23-d584-49de-9535-e31eb1fc7099")
 	)
 	(label "MCU_TRACE_D3"
 		(at 78.74 41.91 0)
@@ -9472,6 +9562,16 @@
 		)
 		(uuid "d47778d3-97ad-44bb-9465-38fdb5e1cc50")
 	)
+	(label "CCI_I2C_SCL1"
+		(at 295.91 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbe00221-cfde-45d6-b19b-0814b55c1a1d")
+	)
 	(label "SOC_GPIO_28"
 		(at 53.34 95.25 180)
 		(effects
@@ -9522,6 +9622,16 @@
 		)
 		(uuid "e4aa4e84-ebc3-4757-aea2-b2448b1271cb")
 	)
+	(label "SCL0_3.3V"
+		(at 375.92 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4fb9a3b-fefa-4922-a02f-92d1668a12cd")
+	)
 	(label "HPH_L"
 		(at 78.74 74.93 0)
 		(effects
@@ -9562,6 +9672,16 @@
 			)
 		)
 	)
+	(label "SCL1_3.3V"
+		(at 375.92 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0e22104-16f1-4fc1-8759-394717f71e8a")
+	)
 	(label "MCU_TRACE_D2"
 		(at 78.74 39.37 0)
 		(effects
@@ -9582,7 +9702,7 @@
 		)
 		(uuid "f65a6c1c-f812-4f98-9135-b7c63794a401")
 	)
-	(label "SCL_3.3V"
+	(label "SCL0_3.3V"
 		(at 331.47 41.91 0)
 		(effects
 			(font
@@ -9591,16 +9711,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8302d91-b4b7-4f1d-84b0-bfb2d5e3520c")
-	)
-	(label "SCL_3.3V"
-		(at 375.92 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f85ff742-4419-4e2d-89b6-c01920cdf969")
 	)
 	(label "CSI0_LN1_P"
 		(at 377.19 33.02 180)
@@ -10289,6 +10399,72 @@
 			(project "arduino-uno-q-bottom-shield"
 				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 316.23 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8f0294-816d-4b59-ae82-02136a137fdf")
+		(property "Reference" "#PWR027"
+			(at 316.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 316.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 316.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3088975b-29a2-49b3-8495-24fc2bbaeaf0")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11206,6 +11382,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 313.69 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a75367a8-242e-455f-85c1-f612543d8055")
+		(property "Reference" "#PWR026"
+			(at 313.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 313.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd49067-ad4b-4888-856c-f0efa3d8b97d")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 274.32 0)
 		(unit 1)
@@ -11336,6 +11578,94 @@
 			(project ""
 				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface:TCA9803")
+		(at 313.69 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a628b7-4bc8-4e9c-b012-97f374e5a3ed")
+		(property "Reference" "U4"
+			(at 315.8333 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA9803"
+			(at 315.8333 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(at 336.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9803.pdf"
+			(at 306.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Level-Translating I2C Bus Buffer/Repeater 3.3mA Current Source, VSSOP-8"
+			(at 313.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1576d674-5877-44c5-946c-0d5777ba68fa")
+		)
+		(pin "3"
+			(uuid "15eea547-5736-4708-bd68-431a7fa3b996")
+		)
+		(pin "5"
+			(uuid "87baba35-c6a1-4934-a5aa-20340d124cfc")
+		)
+		(pin "2"
+			(uuid "faa6db22-0b00-4802-a147-9cc62eb467b7")
+		)
+		(pin "1"
+			(uuid "ae3615d2-a0e5-4168-a5a4-11574ad45ecd")
+		)
+		(pin "8"
+			(uuid "e3c6c828-18c6-47d4-8bea-1b38f2f0e057")
+		)
+		(pin "7"
+			(uuid "14deb588-4810-49cc-bbc2-20ccd7f6c16e")
+		)
+		(pin "6"
+			(uuid "8c3b30e5-5f79-48be-8d94-850554ac70d8")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11904,6 +12234,72 @@
 			(project ""
 				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 311.15 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5c3e8e0-ac4c-4ec9-aba6-a45d99e55fcd")
+		(property "Reference" "#PWR025"
+			(at 311.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 311.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 311.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7982dacb-8258-45be-8339-e5a4a94800f9")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
