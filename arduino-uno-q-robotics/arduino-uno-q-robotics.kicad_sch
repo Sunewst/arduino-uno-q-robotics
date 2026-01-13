@@ -5641,6 +5641,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "robotics-symbols:STEMMA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "STEMMA_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "STEMMA_1_1"
+				(pin bidirectional line
+					(at -3.81 5.08 270)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 5.08 270)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 5.08 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 15.24 20.32)
@@ -6306,6 +6442,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 176.53) (xy 35.56 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8f53f0-cf9b-460d-ada0-623b7e83d6c2")
+	)
+	(wire
+		(pts
 			(xy 21.59 257.81) (xy 21.59 260.35)
 		)
 		(stroke
@@ -6473,6 +6619,16 @@
 			(type default)
 		)
 		(uuid "41733f95-94b6-4e32-8950-29d4c0e9e477")
+	)
+	(wire
+		(pts
+			(xy 29.21 173.99) (xy 35.56 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c5b54b-c13d-4368-891d-e7b8dbd0f1cc")
 	)
 	(wire
 		(pts
@@ -7326,6 +7482,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 171.45) (xy 35.56 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e363bcf-bf5c-4514-8886-3d0f8aaa268e")
+	)
+	(wire
+		(pts
 			(xy 171.45 67.31) (xy 165.1 67.31)
 		)
 		(stroke
@@ -7816,6 +7982,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 167.64) (xy 29.21 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6f182b-8064-4da4-9788-4fd69a50df16")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 125.73 46.99)
 		)
 		(stroke
@@ -7903,6 +8079,16 @@
 			(type default)
 		)
 		(uuid "d673d3fd-3420-450d-8877-600bde419e22")
+	)
+	(wire
+		(pts
+			(xy 30.48 168.91) (xy 30.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70835ad-c06f-422a-a26d-5c8597f7f3d4")
 	)
 	(wire
 		(pts
@@ -8193,6 +8379,16 @@
 			(type default)
 		)
 		(uuid "f8d6052f-0175-46bc-9b2e-2f79d27f4cce")
+	)
+	(wire
+		(pts
+			(xy 35.56 168.91) (xy 30.48 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd77460f-77eb-4f0f-be26-76f85ba9d69f")
 	)
 	(wire
 		(pts
@@ -8685,6 +8881,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c283f6b-72a5-43c0-99cf-ad53744c98de")
+	)
+	(label "MCU_I2C4_SDA"
+		(at 29.21 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e8331d1-8208-47c3-8cd3-0e614b0ba894")
 	)
 	(label "MCU_I2C4_SCL"
 		(at 36.83 152.4 0)
@@ -9406,6 +9612,16 @@
 		)
 		(uuid "f9a072c6-f229-455e-8285-fef1e45bcb21")
 	)
+	(label "MCU_I2C4_SCL"
+		(at 29.21 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe0c9cf8-20d0-4937-8fa9-3858fb4b99d3")
+	)
 	(label "CSI1_CLK_P"
 		(at 171.45 80.01 0)
 		(effects
@@ -10079,6 +10295,145 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32924cfe-cb11-4857-bd75-204e6bb475ce")
+		(property "Reference" "#PWR024"
+			(at 30.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e247c9f6-0f4e-4f42-9b72-00cd85775566")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robotics-symbols:STEMMA")
+		(at 40.64 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "377fb540-7bf4-4fc6-972f-d0422429537b")
+		(property "Reference" "U3"
+			(at 40.894 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 40.386 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 40.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4169adc0-324e-4e8b-a75b-1f19eebbbab0")
+		)
+		(pin "2"
+			(uuid "8320520e-2f25-4fb0-81fa-59f9d64f83bc")
+		)
+		(pin "3"
+			(uuid "90ee3c96-c42e-4acc-a5da-11b5ed3d9dd4")
+		)
+		(pin "4"
+			(uuid "aaa5f99b-f01c-4f3c-9b72-a695eea0c0e0")
+		)
+		(instances
+			(project ""
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x30_Odd_Even")
 		(at 64.77 67.31 0)
 		(unit 1)
@@ -10383,6 +10738,72 @@
 			(project "arduino-uno-q-robotics"
 				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 29.21 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "576bc695-3948-4fb3-bfc4-933d7c5bb6dc")
+		(property "Reference" "#PWR023"
+			(at 29.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 29.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "208fd63a-8517-48e7-9aac-89879490c71b")
+		)
+		(instances
+			(project "arduino-uno-q-robotics"
+				(path "/c2014409-d0b2-4c09-9f2e-87992017a082"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
