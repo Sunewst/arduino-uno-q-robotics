@@ -10565,16 +10565,6 @@
 		)
 		(uuid "01c2541b-4407-4d01-b2a0-edda428e0e1e")
 	)
-	(label "CCI_I2C_SCL0"
-		(at 302.26 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06584840-9edc-43ab-a822-cd76748c36d8")
-	)
 	(label "MCU_PSSI_D6"
 		(at 53.34 46.99 180)
 		(effects
@@ -11398,6 +11388,16 @@
 		(uuid "8eeae690-205c-449c-a119-98c0ea9216d4")
 	)
 	(label "CCI_I2C_SCL0"
+		(at 302.26 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90210096-4c04-4725-99f3-e7ae72438ee9")
+	)
+	(label "CCI_I2C_SCL0"
 		(at 146.05 95.25 180)
 		(effects
 			(font
@@ -11547,6 +11547,16 @@
 		)
 		(uuid "a4ccca89-3089-455c-8214-fb6149a3af0d")
 	)
+	(label "CCI_I2C_SDA0"
+		(at 302.26 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4d22100-1400-4b78-bc2d-6182e99d8bb8")
+	)
 	(label "SOC_GPIO_1_SE0"
 		(at 53.34 80.01 180)
 		(effects
@@ -11627,16 +11637,6 @@
 		)
 		(uuid "ad408c42-c039-4b6e-8c9b-65463969ea2f")
 	)
-	(label "CCI_I2C_SDA0"
-		(at 302.26 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "add7a087-8e89-4d26-884f-ad888274b7ad")
-	)
 	(label "MCU_PSSI_PDCK"
 		(at 53.34 52.07 180)
 		(effects
@@ -11687,7 +11687,7 @@
 		)
 		(uuid "b14637ec-fb03-42ff-8782-f3634015bbb6")
 	)
-	(label "CCI_I2C_SDA1"
+	(label "CCI_I2C_SCL1"
 		(at 302.26 101.6 180)
 		(effects
 			(font
@@ -11937,7 +11937,7 @@
 		)
 		(uuid "d47778d3-97ad-44bb-9465-38fdb5e1cc50")
 	)
-	(label "CCI_I2C_SCL1"
+	(label "CCI_I2C_SDA1"
 		(at 302.26 104.14 180)
 		(effects
 			(font
@@ -15406,7 +15406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "robotics-footprints:LGA-14L_2P5X3X0P83_STM"
 			(at 56.642 268.224 0)
 			(effects
 				(font
