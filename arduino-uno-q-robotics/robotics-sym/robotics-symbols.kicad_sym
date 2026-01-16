@@ -49,6 +49,15 @@
 				(hide yes)
 			)
 		)
+		(property "BOM" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/74LVC2T45GS-115/3679086"
+			(at 0.254 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "74LVC2T45GS_0_1"
 			(rectangle
 				(start -7.62 5.08)
@@ -2774,12 +2783,13 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
+		(property "BOM" "https://www.digikey.com/en/products/detail/stmicroelectronics/LSM6DSO32TR/11694177"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "LSM6DSO32"
@@ -3090,7 +3100,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 0 0 0)
+			(at 0 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,6 +3119,15 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "https://www.digikey.com/en/products/detail/sparkfun-electronics/14417/7652746"
+			(at 0 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
