@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/marti/Documents/GitHub/arduino-uno-q-robotics/FFC_Connector/Connector_FFC-FPC/footprints.pretty")(options "")(descr "")(disabled))
+  (lib (name "Connector-FPC-Q")(type "KiCad")(uri "C:/Users/marti/Documents/GitHub/arduino-uno-q-robotics/FFC_Connector/Connector_FFC-FPC/Connector-FPC-Q.pretty")(options "")(descr "")(disabled))
+  (lib (name "FFC_Library")(type "KiCad")(uri "C:/Users/marti/Documents/GitHub/arduino-uno-q-robotics/FFC_Library.pretty")(options "")(descr "")(disabled))
+  (lib (name "robotics-footprints")(type "KiCad")(uri "${KIPRJMOD}/robotics-footprints.pretty")(options "")(descr ""))
+)
